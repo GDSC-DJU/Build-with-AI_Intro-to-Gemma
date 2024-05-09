@@ -1,2 +1,4 @@
 **/.DS_Store
-_ignore/**
+_ignore/
+_model/
+py_venv-Gemma_Intro/
