@@ -12,5 +12,5 @@ python -m webbrowser https://www.kaggle.com/settings/account
 python py_script_0-login_kagglehub.py
 
 mkdir _model
-mkdir "~/.kaggle"
-mv "~/Downloads/kaggle.json" "~/.kaggle/kaggle.json"  # kagglehub가 인증 정보를 인식하기 위함
+mkdir "$HOME/.kaggle"
+mv "$HOME/Downloads/kaggle.json" "$HOME/.kaggle/kaggle.json"  # kagglehub가 인증 정보를 인식하기 위함
